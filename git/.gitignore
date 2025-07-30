@@ -1,0 +1,7 @@
+# IDEs
+.idea
+*.code-workspace
+*.swp
+
+# OS
+.DS_Store

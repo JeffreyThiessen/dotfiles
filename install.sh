@@ -6,7 +6,7 @@ set -e
 # Installation
 ###
 ./zsh/install.sh
-# ./git/install.sh
+./git/install.sh
 # ./vim/install.sh
 # ./vscode/install.sh
 

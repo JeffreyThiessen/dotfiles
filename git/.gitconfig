@@ -1,0 +1,8 @@
+[user]
+        email = jeffreylthiessen@gmail.com
+        name = Jeffrey Thiessen
+[core]
+        editor = vim
+
+[includeIf "gitdir:~/git/azure/"]
+    path = ~/.gitconfig.azure
