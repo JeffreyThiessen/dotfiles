@@ -16,6 +16,9 @@ ZSH_THEME="cloud"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
+source ~/omz/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+skip_global_compinit=1
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
