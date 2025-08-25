@@ -4,13 +4,4 @@ set -e
 
 echo "🚀 vscode configuration"
 
-# Visual Studio Code :: Package list
-# pkglist=(
-# eamodio.gitlens
-# )
-
-# for i in ${pkglist[@]}; do
-#   code --install-extension $i
-# done
-
-code --install-extension eamodio.gitlens
+ln -sf "${PWD}/vscode/onCreate.sh" "${HOME}/onCreate.sh"
