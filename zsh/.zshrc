@@ -78,12 +78,12 @@ skip_global_compinit=1
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-        zsh-autocomplete
         git
         npm
-        zsh-autosuggestions
+        zsh-autocomplete
         # zsh-syntax-highlighting # competes with fast version??
         fast-syntax-highlighting
+        zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
