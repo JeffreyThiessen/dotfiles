@@ -80,7 +80,7 @@ skip_global_compinit=1
 plugins=(
         git
         npm
-        zsh-autocomplete
+        # zsh-autocomplete
         # zsh-syntax-highlighting # competes with fast version??
         fast-syntax-highlighting
         zsh-autosuggestions
