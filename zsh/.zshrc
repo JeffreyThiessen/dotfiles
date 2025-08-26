@@ -81,7 +81,7 @@ plugins=(
         zsh-autocomplete
         git
         npm
-        # zsh-syntax-highlighting # competes with fast version??
+        zsh-syntax-highlighting # competes with fast version??
         # fast-syntax-highlighting
         zsh-autosuggestions
 )
