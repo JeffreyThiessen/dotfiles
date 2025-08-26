@@ -3,7 +3,7 @@
 
 # https://github.com/marlonrichert/zsh-autocomplete/blob/main/README.md#installation
 # source /path/to/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -78,11 +78,11 @@ skip_global_compinit=1
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+        zsh-autocomplete
         git
         npm
-        # zsh-autocomplete
         # zsh-syntax-highlighting # competes with fast version??
-        fast-syntax-highlighting
+        # fast-syntax-highlighting
         zsh-autosuggestions
 )
 
